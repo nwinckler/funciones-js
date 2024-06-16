@@ -1,0 +1,36 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: grey;
+    margin:0;
+}
+
+header{
+    text-align: center;
+    background-color: #363232;
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    margin:0;
+    padding: 1rem 0 1rem 0;
+    color: rgb(40, 196, 40) ;
+}
+
+.contenedor{
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.requerimiento{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 0 2rem;
+}
